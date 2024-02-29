@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+   width: 320px;
+   background: hsl(216, 50%, 16%); 
+   padding: 20px;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+
+.card .logo img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.text h3 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+
+.text p {
+    color: hsl(215, 51%, 70%, 0.6);
+    margin-bottom: 10px;
+}
+
+
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left img {
+    margin-right: 5px;
+}
+
+.left span {
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+}
+
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+
+.right img {
+    margin-right: 5px;
+}
+
+
+.right span {
+    color: hsl(215, 51%, 70%, 0.6);
+}
+
+
+hr {
+    border: 1px solid hsl(215, 51%, 70%, 0.2);
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+
+.footer img {
+    width: 36px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+.footer p {
+    color: hsl(215, 51%, 70%, 0.6);
+}
+
+
+.footer span {
+    color: hsl(0, 0%, 100%, 0.7);
+}
+
+
+
+
+{}
